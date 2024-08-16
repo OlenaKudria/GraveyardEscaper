@@ -1,0 +1,973 @@
+fileFormatVersion: 2
+guid: 376edfbd7ff8e0649ac34f035e779438
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Test
+    second: {fileID: 2100000, guid: d901779d133f2f043a4260393bfeac95, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'AttackLeft_Gob_H' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Head_M' has translation
+      animation that will be discarded.\n\t'Large_Gob:Ankle_L' has translation animation
+      that will be discarded.\n\nClip 'AttackRight_Gob_H' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Head_M' has translation
+      animation that will be discarded.\n\t'Large_Gob:Ankle_R' has translation animation
+      that will be discarded.\n\nClip 'Block_Gob_H' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Chest_M' has translation animation that
+      will be discarded.\n\nClip 'Death_Gob_H' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Wrist_L' has translation
+      animation that will be discarded.\n\t'Large_Gob:Head_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Wrist_R' has translation animation that
+      will be discarded.\n\nClip 'GunLeft_Gob_H' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Chest_M' has translation animation that
+      will be discarded.\n\t'Large_Gob:Head_M' has translation animation that will
+      be discarded.\n\t'Large_Gob:Ankle_R' has translation animation that will be
+      discarded.\n\nClip 'GunRight_Gob_H' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Large_Gob:Root_M' has translation animation that will
+      be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Large_Gob:Chest_M' has translation
+      animation that will be discarded.\n\t'Large_Gob:Head_M' has translation animation
+      that will be discarded.\n\nClip 'Hit_Gob_H' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Head_M' has translation
+      animation that will be discarded.\n\t'Large_Gob:Wrist_R' has translation animation
+      that will be discarded.\n\t'Large_Gob:Ankle_L' has translation animation that
+      will be discarded.\n\nClip 'Idle_Gob_H' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Head_M' has translation
+      animation that will be discarded.\n\nClip 'Jump_Gob_H' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation
+      animation that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Gob:Head_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Ankle_R' has translation
+      animation that will be discarded.\n\t'Large_Gob:Ankle_L' has translation animation
+      that will be discarded.\n\nClip 'Rage_Gob_H' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Head_M' has translation
+      animation that will be discarded.\n\nClip 'Run_Gob_H' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation
+      animation that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Gob:Head_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Ankle_R' has translation
+      animation that will be discarded.\n\t'Large_Gob:Ankle_L' has translation animation
+      that will be discarded.\n\nClip 'Walk_Gob_H' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Head_M' has translation
+      animation that will be discarded.\n\t'Large_Gob:Ankle_R' has translation animation
+      that will be discarded.\n\t'Large_Gob:Ankle_L' has translation animation that
+      will be discarded.\n\nClip 'WalkBack_Gob_H' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Head_M' has translation
+      animation that will be discarded.\n\t'Large_Gob:Ankle_L' has translation animation
+      that will be discarded.\n\nClip 'WalkLeft_Gob_H' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation animation
+      that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M' has
+      translation animation that will be discarded.\n\t'Large_Gob:Head_M' has translation
+      animation that will be discarded.\n\nClip 'WalkRight_Gob_H' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Large_Gob:Root_M' has translation
+      animation that will be discarded.\n\t'Large_Gob:Root_M' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Large_Gob:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Gob:Head_M' has
+      translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AttackLeft_Gob_H
+      takeName: AttackLeft_Gob_H
+      internalID: 6572334651950687057
+      firstFrame: 232
+      lastFrame: 294
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AttackRight_Gob_H
+      takeName: AttackRight_Gob_H
+      internalID: 3810018448640411739
+      firstFrame: 295
+      lastFrame: 356
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Block_Gob_H
+      takeName: Block_Gob_H
+      internalID: 3053301155028259323
+      firstFrame: 446
+      lastFrame: 496
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death_Gob_H
+      takeName: Death_Gob_H
+      internalID: 8607312646867029210
+      firstFrame: 66
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GunLeft_Gob_H
+      takeName: GunLeft_Gob_H
+      internalID: 382813086310723027
+      firstFrame: 123
+      lastFrame: 173
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GunRight_Gob_H
+      takeName: GunRight_Gob_H
+      internalID: 1093057895071806172
+      firstFrame: 596
+      lastFrame: 646
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit_Gob_H
+      takeName: Hit_Gob_H
+      internalID: 2006485974560455140
+      firstFrame: 51
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_Gob_H
+      takeName: Idle_Gob_H
+      internalID: -2367577730358133219
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump_Gob_H
+      takeName: Jump_Gob_H
+      internalID: 3763313887880054806
+      firstFrame: 406
+      lastFrame: 445
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rage_Gob_H
+      takeName: Rage_Gob_H
+      internalID: -2049819968643826677
+      firstFrame: 357
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_Gob_H
+      takeName: Run_Gob_H
+      internalID: -7379445540595413444
+      firstFrame: 207
+      lastFrame: 231
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 207
+    - serializedVersion: 16
+      name: Walk_Gob_H
+      takeName: Walk_Gob_H
+      internalID: 7173343326780351837
+      firstFrame: 174
+      lastFrame: 206
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 174
+    - serializedVersion: 16
+      name: WalkBack_Gob_H
+      takeName: WalkBack_Gob_H
+      internalID: 133190405778432097
+      firstFrame: 563
+      lastFrame: 595
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 562.8
+    - serializedVersion: 16
+      name: WalkLeft_Gob_H
+      takeName: WalkLeft_Gob_H
+      internalID: -2906813982210916746
+      firstFrame: 497
+      lastFrame: 529
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 496.8
+    - serializedVersion: 16
+      name: WalkRight_Gob_H
+      takeName: WalkRight_Gob_H
+      internalID: 1457688773927865365
+      firstFrame: 530
+      lastFrame: 562
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 529.8
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Large_Gob:Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Chest_M
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Scapula_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Scapula_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Gob:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: 03_Gob_H(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Large_Gob:Gob_L
+      parentName: 03_Gob_H(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Large_Gob:Root
+      parentName: 03_Gob_H(Clone)
+      position: {x: 0, y: 0.3194653, z: 0.48374245}
+      rotation: {x: -0.014582047, y: -0, z: -0, w: 0.9998937}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Large_Gob:Root_M
+      parentName: Large_Gob:Root
+      position: {x: -0, y: 2.0297909, z: -0.41930145}
+      rotation: {x: 0.14062557, y: -0.6929824, z: -0.1406256, w: 0.69298226}
+      scale: {x: 1, y: 0.99999875, z: 0.9999996}
+    - name: Large_Gob:Spine1_M
+      parentName: Large_Gob:Root_M
+      position: {x: -0.03536689, y: 0.44531062, z: 0.00000028416565}
+      rotation: {x: 0.00000002235174, y: 0.00000008940696, z: 0.19092715, w: 0.9816042}
+      scale: {x: 0.9999999, y: 1.000001, z: 1.0000007}
+    - name: Large_Gob:Chest_M
+      parentName: Large_Gob:Spine1_M
+      position: {x: 0.03327566, y: 0.31777427, z: 0.00014082195}
+      rotation: {x: 0.15136032, y: 0.9884787, z: -0.00000016650387, w: 0.000000030732977}
+      scale: {x: 0.99999976, y: 1.0000006, z: 1.000001}
+    - name: Large_Gob:Scapula_L
+      parentName: Large_Gob:Chest_M
+      position: {x: 0.100506015, y: 0.27232593, z: -0.18521038}
+      rotation: {x: -0.16089419, y: -0.6885587, z: 0.68855846, w: 0.16089562}
+      scale: {x: 0.9999995, y: 0.999999, z: 0.9999996}
+    - name: Large_Gob:Shoulder_L
+      parentName: Large_Gob:Scapula_L
+      position: {x: -0.0000019513357, y: 0.41119158, z: 0.00000010805195}
+      rotation: {x: 0.020006614, y: 0.006303852, z: -0.00061877794, w: 0.9997798}
+      scale: {x: 1.0000019, y: 1.0000012, z: 1.0000001}
+    - name: Large_Gob:Elbow_L
+      parentName: Large_Gob:Shoulder_L
+      position: {x: -0.00000048294424, y: 0.8639208, z: 0.00000019605231}
+      rotation: {x: 0.0067991926, y: 0.021176906, z: -0.018365392, w: 0.9995839}
+      scale: {x: 1.0000004, y: 0.9999991, z: 0.9999989}
+    - name: Large_Gob:Wrist_L
+      parentName: Large_Gob:Elbow_L
+      position: {x: 0.0000010640014, y: 0.79710555, z: -0.000000099506195}
+      rotation: {x: 0.05474022, y: 0.028179439, z: 0.10584184, w: 0.9924752}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000005}
+    - name: Large_Gob:MiddleFinger1_L
+      parentName: Large_Gob:Wrist_L
+      position: {x: 0.00000025663138, y: 0.84595585, z: -0.0000015477159}
+      rotation: {x: 0.014196579, y: -0.14844395, z: -0.025464183, w: 0.988491}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000006}
+    - name: Large_Gob:MiddleFinger4_L
+      parentName: Large_Gob:MiddleFinger1_L
+      position: {x: -0.00000041504074, y: 0.47667244, z: -0.0000026113194}
+      rotation: {x: 3.85186e-34, y: 1.3877788e-17, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Large_Gob:Neck_M
+      parentName: Large_Gob:Chest_M
+      position: {x: -0.20101073, y: 0.9930011, z: -0.0000013271685}
+      rotation: {x: -0.0072589815, y: -0.99997365, z: 0.000000017945773, w: -0.000000088647255}
+      scale: {x: 0.9999999, y: 0.999999, z: 1.0000002}
+    - name: Large_Gob:Head_M
+      parentName: Large_Gob:Neck_M
+      position: {x: 0.10445769, y: 0.57255864, z: -0.0007394234}
+      rotation: {x: -0.000000023245503, y: 0.00000002883628, z: -0.005989058, w: 0.9999821}
+      scale: {x: 1.0000005, y: 1.000001, z: 0.9999998}
+    - name: Large_Gob:HeadEnd_M
+      parentName: Large_Gob:Head_M
+      position: {x: -0.00000042060958, y: 0.77966744, z: 0.00000028744154}
+      rotation: {x: 0, y: 3.469447e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Large_Gob:Scapula_R
+      parentName: Large_Gob:Chest_M
+      position: {x: 0.10050648, y: 0.27232453, z: 0.18520924}
+      rotation: {x: 0.6885585, y: -0.16089489, z: -0.16089486, w: 0.6885586}
+      scale: {x: 0.99999964, y: 0.99999887, z: 0.99999946}
+    - name: Large_Gob:Shoulder_R
+      parentName: Large_Gob:Scapula_R
+      position: {x: -0.0000007040051, y: 0.4111917, z: -0.0000011555537}
+      rotation: {x: -0.019868128, y: 0.15861754, z: 0.0024366817, w: -0.9871372}
+      scale: {x: 1.0000007, y: 1.0000014, z: 0.99999964}
+    - name: Large_Gob:Elbow_R
+      parentName: Large_Gob:Shoulder_R
+      position: {x: 0.00000036962206, y: 0.8639222, z: -0.0000010914871}
+      rotation: {x: 0.019576002, y: -0.78481305, z: 0.00056316686, w: 0.6194231}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999833}
+    - name: Large_Gob:Wrist_R
+      parentName: Large_Gob:Elbow_R
+      position: {x: -0.0000008067613, y: 0.79711103, z: -0.000000920173}
+      rotation: {x: -0.082299314, y: 0.71283084, z: -0.08617285, w: 0.69113916}
+      scale: {x: 1.0000029, y: 0.99999946, z: 0.99999934}
+    - name: Large_Gob:MiddleFinger1_R
+      parentName: Large_Gob:Wrist_R
+      position: {x: -0.00000021923263, y: 0.84595746, z: -0.0000001485604}
+      rotation: {x: -0.007182611, y: -0.3954313, z: 0.03233687, w: -0.91789806}
+      scale: {x: 0.9999993, y: 1.0000005, z: 1.0000018}
+    - name: Large_Gob:MiddleFinger4_R
+      parentName: Large_Gob:MiddleFinger1_R
+      position: {x: 0.000000948741, y: 0.47666836, z: 0.000000007156514}
+      rotation: {x: -4.0667068e-19, y: 0.000000067380746, z: -0.0000004257148, w: 1}
+      scale: {x: 0.99999946, y: 1, z: 1}
+    - name: Large_Gob:Hip_R
+      parentName: Large_Gob:Root_M
+      position: {x: 0.017684346, y: -0.06038929, z: -0.39722756}
+      rotation: {x: 0.95347047, y: 0.30134264, z: -0.0034121762, w: -0.0086660925}
+      scale: {x: 1.0000006, y: 1.0000012, z: 1.0000007}
+    - name: Large_Gob:Knee_R
+      parentName: Large_Gob:Hip_R
+      position: {x: -0.000001071281, y: 0.8906518, z: 0.0000012806997}
+      rotation: {x: -0.000000016555912, y: 0.00000012047576, z: 0.30130494, w: 0.9535278}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000006}
+    - name: Large_Gob:Ankle_R
+      parentName: Large_Gob:Knee_R
+      position: {x: 0.00000047102614, y: 1.2834488, z: -0.0000003025618}
+      rotation: {x: -0.67238873, y: -0.73684454, z: -0.05526018, w: 0.043589976}
+      scale: {x: 1.0000006, y: 1, z: 1.0000013}
+    - name: Large_Gob:Toes_R
+      parentName: Large_Gob:Ankle_R
+      position: {x: 0.000000005387, y: 0.33001947, z: 0.00000071524045}
+      rotation: {x: -0.1607674, y: 0.98642653, z: -0.021733612, w: -0.025380436}
+      scale: {x: 0.99999887, y: 0.9999998, z: 0.9999991}
+    - name: Large_Gob:ToesEnd_R
+      parentName: Large_Gob:Toes_R
+      position: {x: -0.0000000531421, y: 0.3740964, z: 0.0000016500761}
+      rotation: {x: 0.00000082576753, y: 0.0000006033186, z: 0.00000032346142, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: Large_Gob:Hip_L
+      parentName: Large_Gob:Root_M
+      position: {x: 0.01768446, y: -0.06038853, z: 0.39722836}
+      rotation: {x: 0.95347047, y: 0.30134252, z: 0.0034118718, w: 0.008666462}
+      scale: {x: 1, y: 0.99999994, z: 1.0000006}
+    - name: Large_Gob:Knee_L
+      parentName: Large_Gob:Hip_L
+      position: {x: -0.0000012468721, y: 0.8906499, z: 0.0000008944819}
+      rotation: {x: 0.000000012184506, y: 0.0000000035728345, z: 0.30130446, w: 0.95352805}
+      scale: {x: 1.0000004, y: 1.0000024, z: 1.0000002}
+    - name: Large_Gob:Ankle_L
+      parentName: Large_Gob:Knee_L
+      position: {x: -0.0000006556399, y: 1.2834518, z: 0.0000006608509}
+      rotation: {x: -0.055259757, y: -0.04358982, z: -0.6723884, w: 0.7368447}
+      scale: {x: 0.9999991, y: 1.0000005, z: 0.9999998}
+    - name: Large_Gob:Toes_L
+      parentName: Large_Gob:Ankle_L
+      position: {x: 0.0000005686796, y: 0.33002037, z: -0.00000007939723}
+      rotation: {x: -0.02043417, y: -0.017425237, z: -0.16093777, w: 0.98659915}
+      scale: {x: 0.99999994, y: 0.9999991, z: 1.0000004}
+    - name: Large_Gob:ToesEnd_L
+      parentName: Large_Gob:Toes_L
+      position: {x: -0.0000003436002, y: 0.37409613, z: -0.0000006668541}
+      rotation: {x: 0.0000003881193, y: -0.0000004769776, z: -0.00000012759976, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
